@@ -20,5 +20,15 @@ module.exports = {
         developmentAssets + '/fonts/*'
       ]
     }
+  },
+  delete: {
+    src: [developmentAssets]
+  },
+  jekyll: {
+    development: {
+      src:    src,
+      dest:   development,
+      config: '_config.yml'
+    }
   }
 };

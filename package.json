@@ -5,7 +5,9 @@
   "private": true,
   "devDependencies": {
     "browser-sync": "^1.5.2",
+    "del": "^0.1.3",
     "gulp": "^3.8.8",
-    "require-dir": "^0.1.0"
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.1"
   }
 }
