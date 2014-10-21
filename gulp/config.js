@@ -110,5 +110,15 @@ module.exports = {
     images:  srcAssets + '/images/**/*',
     sprites: srcAssets + '/images/**/*.png',
     svg:     'vectors/*.svg'
+  },
+  scsslint: {
+    src: [
+      srcAssets + '/scss/**/*.{sass,scss}',
+      '!' + srcAssets + '/scss/base/_sprites.scss',
+      '!' + srcAssets + '/scss/helpers/_meyer-reset.scss'
+    ]
+  },
+  jshint: {
+    src: srcAssets + '/javascripts/*.js'
   }
 };
