@@ -34,6 +34,7 @@
     "gulp-shell": "^0.2.10",
     "gulp-sourcemaps": "^1.2.4",
     "gulp-util": "^3.0.1",
+    "gulp.spritesmith": "^1.4.0",
     "jshint-stylish": "^1.0.0",
     "pretty-hrtime": "^0.2.2",
     "require-dir": "^0.1.0",
