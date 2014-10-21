@@ -201,5 +201,20 @@ module.exports = {
       files:  production + '/**/*.{html,xml,txt,json,css,js}'
     },
     dest: production
+  },
+  rsync: {
+    src: 'build/production/**',
+    destination: '~/path/to/my/website/root/',
+    root: production,
+    hostname: 'mydomain.com',
+    username: 'user',
+    incremental: true,
+    progress: true,
+    relative: true,
+    emptyDirectories: true,
+    recursive: true,
+    clean: true,
+    exclude: ['.DS_Store'],
+    include: []
   }
 };

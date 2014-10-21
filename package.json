@@ -34,6 +34,7 @@
     "gulp-plumber": "^0.6.6",
     "gulp-rev": "^2.0.1",
     "gulp-rev-collector": "^0.1.1",
+    "gulp-rsync": "0.0.4",
     "gulp-ruby-sass": "^0.7.1",
     "gulp-scss-lint": "^0.1.4",
     "gulp-shell": "^0.2.10",
