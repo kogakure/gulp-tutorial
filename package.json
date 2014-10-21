@@ -1,0 +1,9 @@
+{
+  "name": "gulp-build",
+  "version": "0.0.1",
+  "description": "The build process of my website with Gulp.js",
+  "private": true,
+  "devDependencies": {
+    "require-dir": "^0.1.0"
+  }
+}
