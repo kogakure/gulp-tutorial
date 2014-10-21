@@ -80,5 +80,15 @@ module.exports = {
       src:  srcAssets + '/fonts/*',
       dest: developmentAssets + '/fonts'
     }
+  },
+  base64: {
+    src: developmentAssets + '/css/*.css',
+    dest: developmentAssets + '/css',
+    options: {
+      baseDir: build,
+      extensions: ['png'],
+      maxImageSize: 20 * 1024, // bytes
+      debug: false
+    }
   }
 };

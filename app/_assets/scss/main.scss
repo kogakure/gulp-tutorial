@@ -35,6 +35,7 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "mixins";
 @import "base";
 @import "layout";
 @import "syntax-highlighting";

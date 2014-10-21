@@ -23,6 +23,7 @@
     "del": "^0.1.3",
     "gulp": "^3.8.8",
     "gulp-autoprefixer": "^1.0.1",
+    "gulp-base64": "^0.1.2",
     "gulp-changed": "^1.0.0",
     "gulp-filter": "^1.0.2",
     "gulp-notify": "^2.0.0",
