@@ -30,5 +30,28 @@ module.exports = {
       dest:   development,
       config: '_config.yml'
     }
+  },
+  sass: {
+    src:  srcAssets + '/scss/**/*.{sass,scss}',
+    dest: developmentAssets + '/css',
+    options: {
+      noCache: true,
+      compass: false,
+      bundleExec: true,
+      sourcemap: true,
+      sourcemapPath: '../../_assets/scss'
+    }
+  },
+  autoprefixer: {
+    browsers: [
+      'last 2 versions',
+      'safari 5',
+      'ie 8',
+      'ie 9',
+      'opera 12.1',
+      'ios 6',
+      'android 4'
+    ],
+    cascade: true
   }
 };
