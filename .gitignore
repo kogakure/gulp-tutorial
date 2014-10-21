@@ -1,3 +1,5 @@
 node_modules
 build
 vendor
+app/_bower_components
+.fontcustom-manifest.json

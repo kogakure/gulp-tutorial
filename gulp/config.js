@@ -70,5 +70,15 @@ module.exports = {
       dest:       developmentAssets + '/js',
       outputName: 'head.js'
     }]
+  },
+  images: {
+    src:  srcAssets + '/images/**/*',
+    dest: developmentAssets + '/images'
+  },
+  copyfonts: {
+    development: {
+      src:  srcAssets + '/fonts/*',
+      dest: developmentAssets + '/fonts'
+    }
   }
 };
