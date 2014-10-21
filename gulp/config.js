@@ -90,5 +90,25 @@ module.exports = {
       maxImageSize: 20 * 1024, // bytes
       debug: false
     }
+  },
+  watch: {
+    jekyll: [
+      '_config.yml',
+      '_config.build.yml',
+      'stopwords.txt',
+      src + '/_data/**/*.{json,yml,csv}',
+      src + '/_includes/**/*.{html,xml}',
+      src + '/_layouts/*.html',
+      src + '/_locales/*.yml',
+      src + '/_plugins/*.rb',
+      src + '/_posts/*.{markdown,md}',
+      src + '/**/*.{html,markdown,md,yml,json,txt,xml}',
+      src + '/*'
+    ],
+    sass:    srcAssets + '/scss/**/*.{sass,scss}',
+    scripts: srcAssets + '/javascripts/**/*.js',
+    images:  srcAssets + '/images/**/*',
+    sprites: srcAssets + '/images/**/*.png',
+    svg:     'vectors/*.svg'
   }
 };
