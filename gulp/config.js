@@ -19,6 +19,12 @@ module.exports = {
         developmentAssets + '/images/**',
         developmentAssets + '/fonts/*'
       ]
+    },
+    production: {
+      server: {
+        baseDir: [production]
+      },
+      port: 9998
     }
   },
   delete: {
@@ -29,6 +35,11 @@ module.exports = {
       src:    src,
       dest:   development,
       config: '_config.yml'
+    },
+    production: {
+      src:    src,
+      dest:   production,
+      config: '_config.yml,_config.build.yml'
     }
   },
   sass: {
