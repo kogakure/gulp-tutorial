@@ -90,6 +90,10 @@ module.exports = {
     development: {
       src:  srcAssets + '/fonts/*',
       dest: developmentAssets + '/fonts'
+    },
+    production: {
+      src:  developmentAssets + '/fonts/*',
+      dest: productionAssets + '/fonts'
     }
   },
   base64: {
@@ -173,5 +177,29 @@ module.exports = {
       src: production + '/**/*.html',
       dest: production
     }
+  },
+  revision: {
+    src: {
+      assets: [
+        productionAssets + '/css/*.css',
+        productionAssets + '/js/*.js',
+        productionAssets + '/images/**/*'
+      ],
+      base: production
+    },
+    dest: {
+      assets: production,
+      manifest: {
+        name: 'manifest.json',
+        path: productionAssets
+      }
+    }
+  },
+  collect: {
+    src: {
+      manifest: productionAssets + '/manifest.json',
+      files:  production + '/**/*.{html,xml,txt,json,css,js}'
+    },
+    dest: production
   }
 };
