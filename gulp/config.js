@@ -155,5 +155,23 @@ module.exports = {
       imgPath: '/assets/images/sprites/icon-sprite.png',
       dest: srcAssets + '/images/sprites/'
     }
+  },
+  optimize: {
+    css: {
+      src:  developmentAssets + '/css/*.css',
+      dest: productionAssets + '/css/'
+    },
+    js: {
+      src:  developmentAssets + '/js/*.js',
+      dest: productionAssets + '/js/'
+    },
+    images: {
+      src:  developmentAssets + '/images/**/*.{jpg,jpeg,png,gif}',
+      dest: productionAssets + '/images/'
+    },
+    htmlmin: {
+      src: production + '/**/*.html',
+      dest: production
+    }
   }
 };
