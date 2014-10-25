@@ -8,7 +8,7 @@ var config = require('../../config').optimize.js;
  */
 gulp.task('optimize:js', function() {
   return gulp.src(config.src)
-    .pipe(uglify())
+    .pipe(uglify(config.options))
     .pipe(gulp.dest(config.dest))
     .pipe(size());
 });

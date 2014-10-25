@@ -12,7 +12,8 @@ var config       = require('../../config');
  * Build sourcemaps
  */
 gulp.task('sass', function() {
-  var sassConfig     = config.sass.options;
+  var sassConfig = config.sass.options;
+
   sassConfig.onError = browsersync.notify;
 
   // Don’t write sourcemaps of sourcemaps

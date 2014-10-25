@@ -8,9 +8,7 @@ var config    = require('../../config').optimize.css;
  */
 gulp.task('optimize:css', function() {
   return gulp.src(config.src)
-    .pipe(minifycss({
-      keepSpecialComments: 0
-    }))
+    .pipe(minifycss(config.options))
     .pipe(gulp.dest(config.dest))
     .pipe(size());
 });

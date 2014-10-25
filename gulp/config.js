@@ -138,7 +138,11 @@ module.exports = {
   },
   sprites: {
     src: srcAssets + '/images/sprites/icon/*.png',
-    css: {
+    dest: {
+      css: srcAssets + '/scss/base/',
+      image: srcAssets + '/images/sprites/'
+    },
+    options: {
       cssName: '_sprites.scss',
       cssFormat: 'css',
       cssOpts: {
@@ -152,30 +156,38 @@ module.exports = {
           }
         }
       },
-      dest: srcAssets + '/scss/',
-    },
-    image: {
       imgName: 'icon-sprite.png',
-      imgPath: '/assets/images/sprites/icon-sprite.png',
-      dest: srcAssets + '/images/sprites/'
+      imgPath: '/assets/images/sprites/icon-sprite.png'
     }
   },
   optimize: {
     css: {
       src:  developmentAssets + '/css/*.css',
-      dest: productionAssets + '/css/'
+      dest: productionAssets + '/css/',
+      options: {
+        keepSpecialComments: 0
+      }
     },
     js: {
       src:  developmentAssets + '/js/*.js',
-      dest: productionAssets + '/js/'
+      dest: productionAssets + '/js/',
+      options: {}
     },
     images: {
       src:  developmentAssets + '/images/**/*.{jpg,jpeg,png,gif}',
-      dest: productionAssets + '/images/'
+      dest: productionAssets + '/images/',
+      options: {
+        optimizationLevel: 3,
+        progessive: true,
+        interlaced: true
+      }
     },
-    htmlmin: {
+    html: {
       src: production + '/**/*.html',
-      dest: production
+      dest: production,
+      options: {
+        collapseWhitespace: true
+      }
     }
   },
   revision: {
@@ -203,18 +215,20 @@ module.exports = {
     dest: production
   },
   rsync: {
-    src: 'build/production/**',
-    destination: '~/path/to/my/website/root/',
-    root: production,
-    hostname: 'mydomain.com',
-    username: 'user',
-    incremental: true,
-    progress: true,
-    relative: true,
-    emptyDirectories: true,
-    recursive: true,
-    clean: true,
-    exclude: ['.DS_Store'],
-    include: []
+    src: production + '/**',
+    options: {
+      destination: '~/path/to/my/website/root/',
+      root: production,
+      hostname: 'mydomain.com',
+      username: 'user',
+      incremental: true,
+      progress: true,
+      relative: true,
+      emptyDirectories: true,
+      recursive: true,
+      clean: true,
+      exclude: ['.DS_Store'],
+      include: []
+    }
   }
 };

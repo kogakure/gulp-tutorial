@@ -7,17 +7,11 @@ var config      = require('../../config').sprites;
  */
 gulp.task('sprites', function() {
 
-  var spriteData = gulp.src(config.src).pipe(spritesmith({
-    imgName: config.image.imgName,
-    imgPath: config.image.imgPath,
-    cssName: config.css.cssName,
-    cssFormat: config.css.cssFormat,
-    cssOpts: config.css.cssOpts
-  }));
+  var spriteData = gulp.src(config.src).pipe(spritesmith(config.options));
 
   spriteData.img
-    .pipe(gulp.dest(config.image.dest));
+    .pipe(gulp.dest(config.dest.image));
 
   spriteData.css
-    .pipe(gulp.dest(config.css.dest));
+    .pipe(gulp.dest(config.dest.css));
 });
