@@ -15,7 +15,7 @@ These are the files for my fourteen-part series *Introduction to Gulp.js* publis
 9. [Checking the Syntax of SCSS and JavaScript](http://stefanimhoff.de/2014/gulp-tutorial-9-linting-scss-and-javascript/)
 10. [Generating CSS Image Sprites](http://stefanimhoff.de/2014/gulp-tutorial-10-generating-sprites/)
 11. [Production Build, Server and Jekyll](http://stefanimhoff.de/2014/gulp-tutorial-11-production-build-server-and-jekyll/)
-12. [Introduction to Gulp.js 12: Optimize CSS, JavaScript, Images and HTML](http://stefanimhoff.de/2014/gulp-tutorial-12-optimize-css-javascript-images-and-html/)
+12. [Optimize CSS, JavaScript, Images and HTML](http://stefanimhoff.de/2014/gulp-tutorial-12-optimize-css-javascript-images-and-html/)
 13. [Revisioning](http://stefanimhoff.de/2014/gulp-tutorial-13-revisioning/)
 14. [Deploying the Website with Rsync](http://stefanimhoff.de/2014/gulp-tutorial-14-deploying-the-website/)
 
