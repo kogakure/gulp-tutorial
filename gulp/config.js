@@ -208,10 +208,11 @@ module.exports = {
     }
   },
   collect: {
-    src: {
-      manifest: productionAssets + '/manifest.json',
-      files:  production + '/**/*.{html,xml,txt,json,css,js}'
-    },
+    src: [
+      productionAssets + '/manifest.json',
+      production + '/**/*.{html,xml,txt,json,css,js}',
+      '!' + production + '/feed.xml'
+    ],
     dest: production
   },
   rsync: {

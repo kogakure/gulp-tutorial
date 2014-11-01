@@ -7,10 +7,7 @@ var config  = require('../../config').collect;
  * from a manifest file
  */
 gulp.task('rev:collect', function() {
-  return gulp.src([
-    config.src.manifest,
-    config.src.files
-  ])
+  return gulp.src(config.src)
   .pipe(collect())
   .pipe(gulp.dest(config.dest));
 });
