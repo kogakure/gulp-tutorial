@@ -24,17 +24,15 @@ Clone the repository on your computer and change into the projects folder. Run:
 
 ```sh
 $ bundle
-$ npm install
 $ bower install
+$ npm install
 ```
 
-You will need additionally [Fontcustom](http://fontcustom.com/) to compile vector fonts and [scss-lint](https://github.com/causes/scss-lint) to Lint your SCSS files. To install Fontcustom you should have [Homebrew](http://brew.sh/) installed or use another package management tool to install the dependencies:
+To install  [Fontcustom](http://fontcustom.com/) you should have [Homebrew](http://brew.sh/) installed or use another package management tool to install the dependencies:
 
 ```sh
 $ brew install fontforge --with-python
 $ brew install eot-utils
-$ gem install fontcustom -v "1.2.0"
-$ gem install scss-lint
 ```
 
 ## Setup
