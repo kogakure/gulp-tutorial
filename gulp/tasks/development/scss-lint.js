@@ -8,5 +8,5 @@ var config   = require('../../config').scsslint;
  */
 gulp.task('scsslint', function() {
   return gulp.src(config.src)
-    .pipe(scsslint());
+    .pipe(scsslint(config.options));
 });

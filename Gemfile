@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-gem 'octopress', '~> 3.0.0.rc.14' # Newest octopress version
-gem 'sass', '>= 3.3'              # SASS
+gem 'jekyll', '~> 2.5.2'
+gem 'sass', '>= 3.3'
+gem 'scss-lint', '~> 0.31.0'
+gem 'fontcustom', '~> 1.3.7'

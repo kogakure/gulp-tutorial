@@ -131,7 +131,10 @@ module.exports = {
       srcAssets + '/scss/**/*.{sass,scss}',
       '!' + srcAssets + '/scss/base/_sprites.scss',
       '!' + srcAssets + '/scss/helpers/_meyer-reset.scss'
-    ]
+    ],
+    options: {
+      bundleExec: true
+    }
   },
   jshint: {
     src: srcAssets + '/javascripts/*.js'
