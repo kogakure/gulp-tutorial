@@ -86,6 +86,11 @@ module.exports = {
     src:  srcAssets + '/images/**/*',
     dest: developmentAssets + '/images'
   },
+  webp: {
+    src: productionAssets + '/images/**/*.{jpg,jpeg,png}',
+    dest: productionAssets + '/images/',
+    options: {}
+  },
   copyfonts: {
     development: {
       src:  srcAssets + '/fonts/*',
