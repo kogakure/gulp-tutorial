@@ -28,6 +28,12 @@ $ bower install
 $ npm install
 ```
 
+**Hint**: If you get errors while installing `gulp-imagemin` it may help to execute this command before running `npm install`:
+
+```sh
+export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
+```
+
 To install  [Fontcustom](http://fontcustom.com/) you should have [Homebrew](http://brew.sh/) installed or use another package management tool to install the dependencies:
 
 ```sh
