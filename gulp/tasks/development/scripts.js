@@ -43,7 +43,7 @@ gulp.task('scripts', function(callback) {
         .pipe(source(bundleConfig.outputName))
         // Specify the output destination
         .pipe(gulp.dest(bundleConfig.dest))
-        .on('end', reportFinished);
+        .on('finish', reportFinished);
     };
 
     if(global.isWatching) {
