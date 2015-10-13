@@ -50,7 +50,6 @@ module.exports = {
       compass: false,
       bundleExec: true,
       sourcemap: true,
-      sourcemapPath: '../../_assets/scss'
     }
   },
   autoprefixer: {
