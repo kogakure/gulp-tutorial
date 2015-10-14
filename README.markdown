@@ -35,7 +35,7 @@ $ npm install
 export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
 ```
 
-**Hint**: I recently ran into problem with `gulp-imagemin`. This may be an error with my current version of node. But if you get the same error on `gulp publish`, while optimizing images install manually these files::
+**Hint**: I recently ran into problem with `gulp-imagemin`. This may be an error with my current version of node. But if you get the same error on `gulp publish`, while optimizing images install manually these files:
 
 ```sh
 $ npm install optipng-bin
