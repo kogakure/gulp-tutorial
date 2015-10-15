@@ -42,27 +42,49 @@ module.exports = {
       config: '_config.yml,_config.build.yml'
     }
   },
-  sass: {
-    src:  srcAssets + '/scss/**/*.{sass,scss}',
+  styles: {
+    src:  srcAssets + '/styles/*.css',
     dest: developmentAssets + '/css',
     options: {
-      noCache: true,
-      compass: false,
-      bundleExec: true,
-      sourcemap: true,
+      precss: {},
+      autoprefixer: {
+        browsers: [
+          'last 2 versions',
+          'safari 5',
+          'ie 8',
+          'ie 9',
+          'opera 12.1',
+          'ios 6',
+          'android 4'
+        ],
+        cascade: true
+      },
+      mqpacker: {}
     }
   },
-  autoprefixer: {
-    browsers: [
-      'last 2 versions',
-      'safari 5',
-      'ie 8',
-      'ie 9',
-      'opera 12.1',
-      'ios 6',
-      'android 4'
+  lintStyles: {
+    src: [
+      srcAssets + '/styles/**/*.css',
+      '!' + srcAssets + '/styles/partials/_syntax-highlighting.css',
+      '!' + srcAssets + '/styles/partials/_sprites.css',
+      '!' + srcAssets + '/styles/partials/fontcustom.css'
     ],
-    cascade: true
+    options: {
+      stylelint: {
+        'rules': {
+          'string-quotes': [2, 'double'],
+          'color-hex-case': [2, 'lower'],
+          'value-no-vendor-prefix': 2,
+          'declaration-no-important': 0,
+          'rule-non-nested-empty-line-before': [2, 'always', {
+            ignore: ['after-comment']
+          }]
+        }
+      },
+      reporter: {
+        clearMessages: true
+      }
+    }
   },
   browserify: {
     // Enable source maps
@@ -129,21 +151,11 @@ module.exports = {
       src + '/**/*.{html,markdown,md,yml,json,txt,xml}',
       src + '/*'
     ],
-    sass:    srcAssets + '/scss/**/*.{sass,scss}',
+    styles:  srcAssets + '/styles/**/*.css',
     scripts: srcAssets + '/javascripts/**/*.js',
     images:  srcAssets + '/images/**/*',
     sprites: srcAssets + '/images/**/*.png',
     svg:     'vectors/*.svg'
-  },
-  scsslint: {
-    src: [
-      srcAssets + '/scss/**/*.{sass,scss}',
-      '!' + srcAssets + '/scss/base/_sprites.scss',
-      '!' + srcAssets + '/scss/helpers/_meyer-reset.scss'
-    ],
-    options: {
-      bundleExec: true
-    }
   },
   jshint: {
     src: srcAssets + '/javascripts/*.js'
@@ -151,7 +163,7 @@ module.exports = {
   sprites: {
     src: srcAssets + '/images/sprites/icon/*.png',
     dest: {
-      css: srcAssets + '/scss/base/',
+      css: srcAssets + '/styles/partials/base/',
       image: srcAssets + '/images/sprites/'
     },
     options: {

@@ -8,7 +8,7 @@ gulp.task('build', function(callback) {
   runSequence('delete',
   [
     'jekyll',
-    'sass',
+    'styles',
     'scripts',
     'images',
     'copy:fonts'
