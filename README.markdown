@@ -19,6 +19,7 @@ These are the files for my fourteen-part series *Introduction to Gulp.js* publis
 13. [Revisioning](http://stefanimhoff.de/2014/gulp-tutorial-13-revisioning/)
 14. [Deploying the Website with Rsync](http://stefanimhoff.de/2014/gulp-tutorial-14-deploying-the-website/)
 15. [Performance Improvements with WebP and Gzip](http://stefanimhoff.de/2014/gulp-tutorial-15-performance-tasks/)
+16. [PostCSS](http://stefanimhoff.de/2015/gulp-tutorial-16-postcss/)
 
 ## Installation
 Clone the repository on your computer and change into the projects folder. Run:
@@ -67,6 +68,10 @@ $ gulp deploy
 - Running `gulp` will start a development server, build assets and the Jekyll site and start a `watch` task.
 - Running `gulp publish` will copy and optimize assets and run a production build of Jekyll.
 - Running `gulp deploy` will copy the generated files with Rsync to your server.
+
+## Sass, Compass or PostCSS
+
+The current version of this tutorial uses PostCSS. If you would like to use Sass (or Compass), you can still easily access the old code in the branch `ruby-sass`. The new code at the time I wrote the article is available in the branch `postcss`. Additionally I merge it into master and will process with PostCSS in my tutorial.
 
 ## Credits
 
