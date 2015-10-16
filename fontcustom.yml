@@ -31,7 +31,7 @@ input:
 
 output:
   fonts: app/_assets/fonts # required
-  css: app/_assets/scss
+  css: app/_assets/styles
   preview: docs
 #  my-custom-template.yml: config
 
@@ -45,4 +45,4 @@ output:
 #   referenced by their base file name.
 # --------------------------------------------------------------------------- #
 
-templates: [ scss, preview ]
+templates: [ css, preview ]

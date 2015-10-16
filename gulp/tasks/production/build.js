@@ -7,7 +7,7 @@ var runSequence = require('run-sequence');
 gulp.task('build:production', function(callback) {
   runSequence('delete', 'jekyll:production',
   [
-    'sass',
+    'styles',
     'scripts',
     'images',
     'copy:fonts'
