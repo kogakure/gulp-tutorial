@@ -18,7 +18,7 @@ These are the files for my fourteen-part series *Introduction to Gulp.js* publis
 12. [Optimize CSS, JavaScript, Images and HTML](http://stefanimhoff.de/2014/gulp-tutorial-12-optimize-css-javascript-images-and-html/)
 13. [Revisioning](http://stefanimhoff.de/2014/gulp-tutorial-13-revisioning/)
 14. [Deploying the Website with Rsync](http://stefanimhoff.de/2014/gulp-tutorial-14-deploying-the-website/)
-15. [Performance Improvements with WebP and Gzip](http://stefanimhoff.de/2014/gulp-tutorial-15-performance-tasks/)
+15. [Performance Improvements with WebP and Gzip](http://stefanimhoff.de/2014/gulp-tutorial-15-performance-improvements-webp-gzip/)
 16. [PostCSS](http://stefanimhoff.de/2015/gulp-tutorial-16-postcss/)
 
 ## Installation
