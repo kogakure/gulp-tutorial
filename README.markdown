@@ -1,7 +1,7 @@
 # Introduction to Gulp.js
 
 ## Tutorial
-These are the files for my fourteen-part series *Introduction to Gulp.js* published on my website [stefanimhoff.de](http://stefanimhoff.de/).
+These are the files for my series *Introduction to Gulp.js* published on my website [stefanimhoff.de](http://stefanimhoff.de/).
 
 ## Tutorial Overview
 1. [Intro and Setup](http://stefanimhoff.de/2014/gulp-tutorial-1-intro-setup)
