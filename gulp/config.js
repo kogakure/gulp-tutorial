@@ -27,7 +27,7 @@ module.exports = {
       port: 9998
     }
   },
-  delete: {
+  deleteAssets: {
     src: [developmentAssets]
   },
   jekyll: {
