@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "The build process of my website with Gulp.js",
   "private": true,
+  "scripts": {
+    "start": "gulp",
+    "publish": "gulp publish",
+    "deploy": "gulp deploy"
+  },
   "browser": {
     "modernizr": "./app/_bower_components/modernizr/modernizr.js",
     "jquery": "./app/_bower_components/jquery/dist/jquery.js"

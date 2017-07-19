@@ -68,20 +68,6 @@ $ bower install
 $ npm install
 ```
 
-**Hint**: If you get errors while installing `gulp-imagemin` it may help to execute this command before running `npm install`:
-
-```sh
-export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
-```
-
-**Hint**: I recently ran into problem with `gulp-imagemin`. This may be an error with my current version of node. But if you get the same error on `gulp publish`, while optimizing images install manually these files:
-
-```sh
-$ npm install optipng-bin
-$ npm install cwebp-bin
-```
-
-
 To install  [Fontcustom](http://fontcustom.com/) you should have [Homebrew](http://brew.sh/) installed or use another package management tool to install the dependencies:
 
 ```sh
@@ -95,17 +81,17 @@ Open `gulp/config.js` and change settings if needed. Only the `rsync` settings n
 
 ## Running Gulp.js
 
-Three tasks are available:
+Three tasks are available (`npm` works, too):
 
 ```sh
-$ gulp
-$ gulp publish
-$ gulp deploy
+$ yarn start
+$ yarn run publish
+$ yarn run deploy
 ```
 
-- Running `gulp` will start a development server, build assets and the Jekyll site and start a `watch` task.
-- Running `gulp publish` will copy and optimize assets and run a production build of Jekyll.
-- Running `gulp deploy` will copy the generated files with Rsync to your server.
+- Running `yarn start` will start a development server, build assets and the Jekyll site and start a `watch` task.
+- Running `yarn publish` will copy and optimize assets and run a production build of Jekyll.
+- Running `yarn deploy` will copy the generated files with Rsync to your server.
 
 ## Sass, Compass or PostCSS
 
