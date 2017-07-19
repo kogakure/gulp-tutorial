@@ -90,8 +90,8 @@ $ yarn run deploy
 ```
 
 - Running `yarn start` will start a development server, build assets and the Jekyll site and start a `watch` task.
-- Running `yarn publish` will copy and optimize assets and run a production build of Jekyll.
-- Running `yarn deploy` will copy the generated files with Rsync to your server.
+- Running `yarn run publish` will copy and optimize assets and run a production build of Jekyll.
+- Running `yarn run deploy` will copy the generated files with Rsync to your server.
 
 ## Sass, Compass or PostCSS
 
