@@ -21,7 +21,45 @@ These are the files for my series *Introduction to Gulp.js* published on my webs
 15. [Performance Improvements with WebP and Gzip](http://stefanimhoff.de/2014/gulp-tutorial-15-performance-improvements-webp-gzip/)
 16. [PostCSS](http://stefanimhoff.de/2015/gulp-tutorial-16-postcss/)
 
+## Preparation
+
+Install `nvm` and `node`:
+
+```sh
+$ git clone https://github.com/creationix/nvm.git ~/.nvm
+$ cd ~/.nvm
+$ git checkout `git describe --abbrev=0 --tags`
+```
+
+```sh
+$ export NVM_DIR="$HOME/.nvm/"
+$ [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+```
+
+```sh
+nvm install 6.3.1
+```
+
+If you like install `yarn`, I provide a `yarn.lock` file:
+
+```sh
+brew install yarn
+```
+
+Install `bundler`:
+
+```sh
+$ gem install bundler
+```
+
+Install `bower`:
+
+```sh
+$ npm install -g bower
+```
+
 ## Installation
+
 Clone the repository on your computer and change into the projects folder. Run:
 
 ```sh
