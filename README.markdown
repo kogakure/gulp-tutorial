@@ -1,3 +1,6 @@
+![GitHub Forks](https://img.shields.io/github/forks/kogakure/gulp-tutorial.svg?style=social&label=Fork)
+![GitHub Stars](https://img.shields.io/github/stars/kogakure/gulp-tutorial.svg?style=social&label=Star)
+
 # Introduction to Gulp.js
 
 ## Tutorial
