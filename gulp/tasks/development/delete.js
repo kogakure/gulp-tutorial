@@ -6,5 +6,5 @@ var config = require('../../config').deleteAssets;
  * Delete folders and files
  */
 gulp.task('delete', function() {
-  del(config.src);
+  return del(config.src);
 });
