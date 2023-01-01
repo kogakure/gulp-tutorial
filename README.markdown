@@ -1,4 +1,3 @@
-![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)
 ![GitHub Forks](https://img.shields.io/github/forks/kogakure/gulp-tutorial.svg?style=social&label=Fork)
 ![GitHub Stars](https://img.shields.io/github/stars/kogakure/gulp-tutorial.svg?style=social&label=Star)
 
