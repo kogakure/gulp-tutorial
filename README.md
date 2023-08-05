@@ -11,22 +11,22 @@ These are the files for my series *Introduction to Gulp.js* published on my webs
 
 ## Tutorial Overview
 
-1. [Intro and Setup](http://stefanimhoff.de/2014/gulp-tutorial-1-intro-setup)
-2. [Server with BrowserSync and Configuration](http://stefanimhoff.de/2014/gulp-tutorial-2-development-server-browsersync-configuration/)
-3. [Build, Clean and Jekyll](http://stefanimhoff.de/2014/gulp-tutorial-3-build-clean-jekyll/)
-4. [Creating CSS with Sass (and Compass)](http://stefanimhoff.de/2014/gulp-tutorial-4-css-generation-sass/)
-5. [Bundling JavaScript with Browserify](http://stefanimhoff.de/2014/gulp-tutorial-5-javascripts-browserify/)
-6. [Images and Vector Fonts](http://stefanimhoff.de/2014/gulp-tutorial-6-images-vector-fonts/)
-7. [Base64 Encoded Images](http://stefanimhoff.de/2014/gulp-tutorial-7-base64/)
-8. [Watch for Changes](http://stefanimhoff.de/2014/gulp-tutorial-8-watch/)
-9. [Checking the Syntax of SCSS and JavaScript](http://stefanimhoff.de/2014/gulp-tutorial-9-linting-scss-and-javascript/)
-10. [Generating CSS Image Sprites](http://stefanimhoff.de/2014/gulp-tutorial-10-generating-sprites/)
-11. [Production Build, Server and Jekyll](http://stefanimhoff.de/2014/gulp-tutorial-11-production-build-server-and-jekyll/)
-12. [Optimize CSS, JavaScript, Images and HTML](http://stefanimhoff.de/2014/gulp-tutorial-12-optimize-css-javascript-images-and-html/)
-13. [Revisioning](http://stefanimhoff.de/2014/gulp-tutorial-13-revisioning/)
-14. [Deploying the Website with Rsync](http://stefanimhoff.de/2014/gulp-tutorial-14-deploying-the-website/)
-15. [Performance Improvements with WebP and Gzip](http://stefanimhoff.de/2014/gulp-tutorial-15-performance-improvements-webp-gzip/)
-16. [PostCSS](http://stefanimhoff.de/2015/gulp-tutorial-16-postcss/)
+1. [Intro and Setup](http://stefanimhoff.de/gulp-tutorial-1-intro-setup)
+2. [Server with BrowserSync and Configuration](http://stefanimhoff.de/gulp-tutorial-2-development-server-browsersync-configuration/)
+3. [Build, Clean and Jekyll](http://stefanimhoff.de/gulp-tutorial-3-build-clean-jekyll/)
+4. [Creating CSS with Sass (and Compass)](http://stefanimhoff.de/gulp-tutorial-4-css-generation-sass/)
+5. [Bundling JavaScript with Browserify](http://stefanimhoff.de/gulp-tutorial-5-javascripts-browserify/)
+6. [Images and Vector Fonts](http://stefanimhoff.de/gulp-tutorial-6-images-vector-fonts/)
+7. [Base64 Encoded Images](http://stefanimhoff.de/gulp-tutorial-7-base64/)
+8. [Watch for Changes](http://stefanimhoff.de/gulp-tutorial-8-watch/)
+9. [Checking the Syntax of SCSS and JavaScript](http://stefanimhoff.de/gulp-tutorial-9-linting-scss-and-javascript/)
+10. [Generating CSS Image Sprites](http://stefanimhoff.de/gulp-tutorial-10-generating-sprites/)
+11. [Production Build, Server and Jekyll](http://stefanimhoff.de/gulp-tutorial-11-production-build-server-and-jekyll/)
+12. [Optimize CSS, JavaScript, Images and HTML](http://stefanimhoff.de/gulp-tutorial-12-optimize-css-javascript-images-and-html/)
+13. [Revisioning](http://stefanimhoff.de/gulp-tutorial-13-revisioning/)
+14. [Deploying the Website with Rsync](http://stefanimhoff.de/gulp-tutorial-14-deploying-the-website/)
+15. [Performance Improvements with WebP and Gzip](http://stefanimhoff.de/gulp-tutorial-15-performance-improvements-webp-gzip/)
+16. [PostCSS](http://stefanimhoff.de/gulp-tutorial-16-postcss/)
 
 ## Preparation
 
