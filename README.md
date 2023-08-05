@@ -3,10 +3,14 @@
 
 # Introduction to Gulp.js
 
+![Gulp Series Cover](./preview.jpg)
+
 ## Tutorial
+
 These are the files for my series *Introduction to Gulp.js* published on my website [stefanimhoff.de](http://stefanimhoff.de/).
 
 ## Tutorial Overview
+
 1. [Intro and Setup](http://stefanimhoff.de/2014/gulp-tutorial-1-intro-setup)
 2. [Server with BrowserSync and Configuration](http://stefanimhoff.de/2014/gulp-tutorial-2-development-server-browsersync-configuration/)
 3. [Build, Clean and Jekyll](http://stefanimhoff.de/2014/gulp-tutorial-3-build-clean-jekyll/)
